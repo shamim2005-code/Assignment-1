@@ -1,3 +1,32 @@
-body {
-    background-color: lightblue;
+* {
+    margin: 0 auto;
+    padding: 0;
+    
+}
+
+.general-button {
+    border-radius: 4px;
+    background-color: rgba(70, 145, 101,1); 
+    color: rgba(255, 255, 255, 1);
+    font-size: 16px;
+    font-weight: 600;
+        padding: 12.5px 16px;
+        cursor: pointer;
+} 
+
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #ffffff;
+    padding: 16px 120px 16px 120px;
+}
+div {
+    opacity: 0.9; 
+    gap: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+
 }
