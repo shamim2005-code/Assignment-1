@@ -93,13 +93,19 @@ nav {
     width:16px; height:16px ;
 }
 
-
+.hero-content{
+    height: 674px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
     
 
 .section-heading {
   max-width: 1360px;
   height: 140px ;
- 
+  align-items: center;
   
 }
 .section-heading h2 {
@@ -159,6 +165,7 @@ color: rgba(98, 115, 130, 1);
     align-items: center;
     justify-content: space-between;
     padding: 120px;
+
 }
 .footer-heading{
  padding: 80px 40px 80px 40px;
@@ -175,7 +182,7 @@ border: 120px ;
     
     
     max-width: 1600px;
-    padding: 120px 120px 0 120px;
+    padding: 120px 120px 50px 120px;
     background-color:rgba(0, 25, 49, 1);
     display: flex;
     justify-content: space-between;
