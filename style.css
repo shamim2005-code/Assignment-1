@@ -1,8 +1,20 @@
-* {
-    margin: 0 auto;
-    padding: 0;
+
+
+.inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  
+}
+
+main {
+    background: url('./assets/hero-bg.png');
+    max-width: 1500px;
+    height: 674px;
     
 }
+    
+    
+
 
 .general-button {
     border-radius: 4px;
@@ -13,7 +25,12 @@
         padding: 12.5px 16px;
         cursor: pointer;
 } 
-
+.general-button1 {
+    text-align: center;
+    width: 251px;
+height: 52px;
+    
+}
 
 nav {
     display: flex;
@@ -22,11 +39,78 @@ nav {
     background-color: #ffffff;
     padding: 16px 120px 16px 120px;
 }
-div {
+.navigation {
     opacity: 0.9; 
     gap: 32px;
     display: flex;
     align-items: center;
     justify-content: center; 
+    
+
+}
+.Special-button {
+    margin-top: 100px;
+    border-radius: 1000px;
+background: rgba(255, 255, 255, 1);
+
+  align-items: center; 
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    color: rgba(70, 145, 101, 1);
+    display: flex ;
+;
+    }
+.button {
+    display: flex;
+    
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    
+    
+
+    
+}
+.Special-button2 {
+    box-sizing: border-box;
+border: 1px solid rgba(255, 255, 255, 1);
+color: rgba(255, 255, 255, 1);
+border-radius: 4px;
+    background:none;
+    width: 198px;
+height: 52px;
+align-items: center;
+    
+
+    } 
+
+
+
+.Special-button span {
+    padding: 8px 12px 8px 6px;
+}
+.Special-button img {
+    padding:9.5px 6px 9.5px 12px;
+}
+.card-section {
+    width: 322px;
+    height: 300px;
+    border: #ffffff;
+    border-radius: 2px;
+    display: flex;
+    gap: 24px;
+    justify-content: flex-start;
+    align-items:center;
+
+}
+.img-card{
+height: 16px;
+width: 16px;
+    background-color: orangered;
+}
+.special{
+    
+
 
 }
