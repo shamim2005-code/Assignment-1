@@ -68,6 +68,24 @@ nav {
     
 
 }
+#bg-paragraph {
+    font-size: 18px;
+     font-weight: 400;
+     text-align: center;
+     margin-top: 16px ;
+    color: white ;
+    width: 1360px;
+    height: 60px;
+}
+#bg-main {
+    font-style: Bold;
+    font-size: 72px;
+    font-weight: 700;
+    text-align: center;
+                     
+    color: #FFFFFF;
+     margin-top: 16px;
+}
 .icon{
     display: flex;
     width: 229px ;
@@ -151,6 +169,8 @@ width: 60px;
 }
 .card-section h3 {
     color: rgba(0, 25, 49, 1);
+    margin-top: 16px;
+    margin-bottom: 16px ;
 
 font-size: 24px;
 font-weight: 600; 
@@ -167,23 +187,64 @@ color: rgba(98, 115, 130, 1);
     padding: 120px;
 
 }
-.footer-heading{
- padding: 80px 40px 80px 40px;
+.banner-img{
+    width: 600px ;
+    height: 600px;
+    border-radius: 12px;
+}
+.main-body-section-part{
+    max-width: 800px;height: 396px;
+    margin-top: 102px ;
+}
+.main-section-font{
+    font-size: 35px;font-weight: 700; color:rgba(0, 25, 49, 1);margin-bottom: 16px ;
+}
+.main-section-paragraph {
+    font-size: 16px;
+  font-weight: 400;color: rgba(98, 115, 130, 1);margin-bottom: 16px ;}
+  
+.middle-part {
+    display: flex;margin-bottom: 16px
+}
+.font2 {
+    font-size: 16px; font-weight: 500;
+}
+
+.footer-heading
+{
+padding: 80px 40px 80px 40px;
 max-width: 1600px;
 height: 384px;
 align-items: center;
 text-align: center;
 background-color:#F7F6F2;
-border: 120px ;
+margin: 0px 120px 120px 120px;
+}
+.footer-paragraph {
+    margin-top: 16px ; margin-bottom: 24px ;
 }
 
 .footer-section
-{
-    
-    
+{    
     max-width: 1600px;
     padding: 120px 120px 50px 120px;
     background-color:rgba(0, 25, 49, 1);
     display: flex;
     justify-content: space-between;
 }
+
+.footer-font {
+    font-size: 20px; font-weight: 500; color: rgba(255, 255, 255, 1); margin-bottom: 16px;
+}
+
+.logo-img {
+    display: flex; width: 16px; height: 16px;
+}
+.footer-last {
+    color:rgba(250, 250, 250, 1);
+        background-color: rgba(0, 25, 49, 1);
+        font-weight: 400; font-size: 16px;
+        text-align: center;
+        padding: 110px 120px 30px 120px;
+}
+
